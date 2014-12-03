@@ -144,19 +144,21 @@ img{
 }
 
 .nav a{
-	height: 80px;
-	width: 80px;
+	height: 70px;
+	width: 70px;
 	border-radius:50%;
 	background-color: #FFF;
 	position: fixed;
-	bottom:10px;
-	right: 13px; 
+	bottom:15px;
+	right: 15px; 
 	-webkit-filter: drop-shadow(5px 5px 5px #222); 
 	filter: drop-shadow(5px 5px 5px #222);
 	opacity: 0.8;
 	filter:  alpha(opacity=80);
 }
 
-.nav{
-	background: url(../img/09.png);
+.nav img{
+	position: relative;
+	width: 70px;
+	height: 70px;
 }

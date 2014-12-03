@@ -56,9 +56,9 @@ li{
 	width: 200px;
 }
 
-.grid_6>.menu{
-	float: right;
-
+.producto:nth-child(2){
+	margin: 20px 0px;
+	border: 2px solid red;
 }
 
 .frase{
@@ -80,6 +80,8 @@ li{
 .footer{
 	background-color:yellow;
 	padding-top:20px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222); 
+	filter: drop-shadow(5px 5px 5px #222);
 }
 
 .justificado{
@@ -92,14 +94,69 @@ li{
 
 .colorFondo{
 	background-color: #ccc;
+	-webkit-filter: drop-shadow(5px 5px 5px #222); 
+	filter: drop-shadow(5px 5px 5px #222);
 }
 
 .sombreado{
 	text-shadow: 8px 6px 6px rgba(150, 150, 150, 1);
 }
 
+.mapa{
+	border-radius: 2px;
+	background: #FFF;
+	margin: 10px auto;
+	width: 400px;
+	height: 350px;
+	padding: 5px 5px;
+	-webkit-box-shadow: 7px 10px 38px 13px rgba(46,46,46,1);
+	-moz-box-shadow: 7px 10px 38px 13px rgba(46,46,46,1);
+	box-shadow: 7px 10px 38px 13px rgba(46,46,46,1);
+}
+
+a:hover{
+	color:#FFF;
+}
+
+.grid_6>.menu{
+	float: right;
+}
+
+.grid_6>.menu a{
+	margin: 0px 13px;
+	position: block;
+}
+
+.menu a:hover{
+	font-size: 15px;
+	margin: 0px 13px;
+}
+
 img{
 	-webkit-filter: drop-shadow(5px 5px 5px #222); 
 	filter: drop-shadow(5px 5px 5px #222);
 	width: 20px;
+}
+
+.video{
+	-webkit-filter: drop-shadow(5px 5px 5px #222); 
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.nav a{
+	height: 80px;
+	width: 80px;
+	border-radius:50%;
+	background-color: #FFF;
+	position: fixed;
+	bottom:10px;
+	right: 13px; 
+	-webkit-filter: drop-shadow(5px 5px 5px #222); 
+	filter: drop-shadow(5px 5px 5px #222);
+	opacity: 0.8;
+	filter:  alpha(opacity=80);
+}
+
+.nav{
+	background: url(../img/09.png);
 }
